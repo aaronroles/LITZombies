@@ -1,3 +1,3 @@
 # LIT Zombies Repository
 
-* Unity Game Development *
+*Unity Game Development*
