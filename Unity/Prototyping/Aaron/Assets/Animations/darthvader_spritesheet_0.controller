@@ -20,6 +20,36 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!1102 &110244988
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DarthVader_BackWalk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: f300ff7ec2656924fa301deb05a4fcd0, type: 2}
+  m_ParentStateMachine: {fileID: 110786754}
+  m_Position: {x: -72, y: 108, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
+--- !u!1102 &110244990
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DarthVader_SideWalk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: c011e28c5cccd244c9a96da7e151b02e, type: 2}
+  m_ParentStateMachine: {fileID: 110786754}
+  m_Position: {x: 180, y: 96, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
 --- !u!1102 &110274670
 State:
   m_ObjectHideFlags: 3
@@ -31,7 +61,7 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: 18ce1312c1d0e334e93f6867721d2b5e, type: 2}
   m_ParentStateMachine: {fileID: 110786754}
-  m_Position: {x: 168, y: 60, z: 0}
+  m_Position: {x: 276, y: 24, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -46,7 +76,7 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: 56f945982d6d2034db18069463cd0ad7, type: 2}
   m_ParentStateMachine: {fileID: 110786754}
-  m_Position: {x: -72, y: 60, z: 0}
+  m_Position: {x: -120, y: 24, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -61,9 +91,11 @@ StateMachine:
   m_States:
   - {fileID: 110286754}
   - {fileID: 110274670}
+  - {fileID: 110244988}
+  - {fileID: 110244990}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions: {}
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_AnyStatePosition: {x: 60, y: -48, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
