@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MyFirstScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DarthVader.cs">
     <Files>
-      <File FileName="Assets\Scripts\MyFirstScript.cs" Line="20" Column="35" />
+      <File FileName="Assets\Scripts\DarthVader.cs" Line="25" Column="42" />
+      <File FileName="Assets\Scripts\DarthVaderController.cs" Line="19" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

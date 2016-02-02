@@ -3,6 +3,9 @@ guid: 7702d8dde3ae5694dada5c2fd0b845a1
 TextureImporter:
   fileIDToRecycleName:
     21300000: tiles_spritesheet_0
+    21300002: tiles_spritesheet_1
+    21300004: tiles_spritesheet_2
+    21300006: tiles_spritesheet_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -51,6 +54,36 @@ TextureImporter:
         y: 8
         width: 8
         height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tiles_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tiles_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 13
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tiles_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
