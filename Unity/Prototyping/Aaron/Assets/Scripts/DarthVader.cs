@@ -23,6 +23,14 @@ public class DarthVader : MonoBehaviour {
 		if (controller.moving.x != 0) {
 			if (absVelX < maxVelocity.x) {
 				forceX = speed * controller.moving.x;
+				if(controller.moving.x == 1){
+					animator.SetInteger("AnimState", 3);
+					transform.localScale = new Vector3(-1,1,1);
+				}
+				else if(controller.moving.x == -1){
+					animator.SetInteger("AnimState", 3);
+					transform.localScale = new Vector3(1,1,1);
+				}
 			}
 		} 
 		else if (controller.moving.y != 0) {
