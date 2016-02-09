@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\DarthVaderController.cs" />
      <Compile Include="Assets\Scripts\MyFirstScript.cs" />
      <Compile Include="Assets\Scripts\RandomSprite.cs" />
+     <Compile Include="Assets\Scripts\Switch.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.7.0/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>

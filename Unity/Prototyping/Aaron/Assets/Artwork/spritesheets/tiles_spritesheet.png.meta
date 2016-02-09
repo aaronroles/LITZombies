@@ -47,11 +47,11 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: tiles_spritesheet_0
+    - name: 
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
+        y: 0
         width: 8
         height: 8
       alignment: 0
@@ -70,10 +70,10 @@ TextureImporter:
     - name: tiles_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 13
-        width: 1
-        height: 3
+        x: 40
+        y: 8
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -84,6 +84,16 @@ TextureImporter:
         y: 8
         width: 8
         height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tiles_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
