@@ -12,6 +12,8 @@ GameObject:
   - 61: {fileID: 6181822}
   - 50: {fileID: 5081822}
   - 114: {fileID: 11481822}
+  - 95: {fileID: 9579976}
+  - 114: {fileID: 11479976}
   m_Layer: 0
   m_Name: ObiWan
   m_TagString: Untagged
@@ -57,6 +59,32 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .230000004, y: .449999988}
   m_Center: {x: 0, y: 0}
+--- !u!95 &9579976
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181822}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 56df8c431855fcd4c979ee83ff96b97e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11479976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cdfc735802d52946bfa4db6a4814b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11481822
 MonoBehaviour:
   m_ObjectHideFlags: 1

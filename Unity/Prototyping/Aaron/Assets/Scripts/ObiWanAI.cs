@@ -24,7 +24,7 @@ public class ObiWanAI : MonoBehaviour {
 		distance = Vector2.Distance (player, transform.position);
 		//Debug.Log (distance);
 
-		if (distance < 1) {
+		if (distance < 1.5) {
 			//Debug.Log("Distance is "+ distance);
 			rigidbody2D.AddForce (playerDirection.normalized * speed);
 		}
