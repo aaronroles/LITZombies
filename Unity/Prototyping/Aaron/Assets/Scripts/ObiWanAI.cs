@@ -9,10 +9,12 @@ public class ObiWanAI : MonoBehaviour {
 	private float yDiff;
 	public float speed;
 	private float distance;
+	private Animator anim;
 
 	// Use this for initialization
 	void Start () {
 		speed = 5;
+		anim = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -27,6 +29,10 @@ public class ObiWanAI : MonoBehaviour {
 		if (distance < 1.5) {
 			//Debug.Log("Distance is "+ distance);
 			rigidbody2D.AddForce (playerDirection.normalized * speed);
+		}
+
+		if (distance < 1) {
+			anim.SetTrigger("attack");
 		}
 	}
 }

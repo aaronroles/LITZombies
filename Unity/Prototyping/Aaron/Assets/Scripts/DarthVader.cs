@@ -49,6 +49,10 @@ public class DarthVader : MonoBehaviour {
 		}
 
 		rigidbody2D.AddForce(new Vector2(forceX, forceY));
+
+		if (Input.GetMouseButtonDown (0)) {
+			animator.SetTrigger("Attack");
+		}
 	
 	}
 }
