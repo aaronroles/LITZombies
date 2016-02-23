@@ -50,11 +50,13 @@
      <Compile Include="Assets\Scripts\Collectable.cs" />
      <Compile Include="Assets\Scripts\DarthVader.cs" />
      <Compile Include="Assets\Scripts\DarthVaderController.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealthManager.cs" />
      <Compile Include="Assets\Scripts\Lightsaber_Enemy.cs" />
      <Compile Include="Assets\Scripts\Lightsaber_Player.cs" />
      <Compile Include="Assets\Scripts\MyFirstScript.cs" />
      <Compile Include="Assets\Scripts\ObiWanAI.cs" />
      <Compile Include="Assets\Scripts\ObiWanAnimation.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealthManager.cs" />
      <Compile Include="Assets\Scripts\RandomSprite.cs" />
      <Compile Include="Assets\Scripts\Switch.cs" />
      <Compile Include="Assets\Scripts\UIControl.cs" />

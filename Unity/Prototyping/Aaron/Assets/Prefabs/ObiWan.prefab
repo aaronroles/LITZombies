@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 404216}
   - 212: {fileID: 21204216}
   - 61: {fileID: 6104216}
-  - 114: {fileID: 11404216}
+  - 114: {fileID: 11490012}
   m_Layer: 0
   m_Name: BlueLightsaber
   m_TagString: Untagged
@@ -32,6 +32,7 @@ GameObject:
   - 114: {fileID: 11481822}
   - 95: {fileID: 9579976}
   - 114: {fileID: 11479976}
+  - 114: {fileID: 11490014}
   m_Layer: 0
   m_Name: ObiWan
   m_TagString: Enemy
@@ -58,7 +59,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181822}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.96000004, y: .939999998, z: 0}
+  m_LocalPosition: {x: -1.86099994, y: -.629000008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 404216}
@@ -116,17 +117,6 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11404216
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 104216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aca85ad0ce119064ebd4fee0a0ae1d65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11479976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,6 +140,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+--- !u!114 &11490012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aca85ad0ce119064ebd4fee0a0ae1d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmgToGive: 4
+--- !u!114 &11490014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bf2e5880f81e140a60f677eacce2e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 10
 --- !u!212 &21204216
 SpriteRenderer:
   m_ObjectHideFlags: 1
