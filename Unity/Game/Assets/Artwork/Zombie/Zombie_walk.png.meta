@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 731fd840802202046a6a7d9c0145fad1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Zombie_walk_0
+    21300002: Zombie_walk_1
+    21300004: Zombie_walk_3
+    21300006: Zombie_walk_5
+    21300008: Zombie_walk_6
+    21300010: Zombie_walk_7
+    21300012: Zombie_walk_8
+    21300014: Zombie_walk_10
+    21300016: Zombie_walk_12
+    21300018: Zombie_walk_13
+    21300020: Zombie_walk_14
+    21300022: Zombie_walk_15
+    21300024: Zombie_walk_17
+    21300026: Zombie_walk_19
+    21300028: Zombie_walk_20
+    21300030: Zombie_walk_21
+    21300032: Zombie_walk_22
+    21300034: Zombie_walk_24
+    21300036: Zombie_walk_26
+    21300038: Zombie_walk_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Zombie_walk_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_7
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_8
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_10
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_12
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_14
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_15
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_17
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_19
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_20
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_21
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_22
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_24
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_26
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Zombie_walk_27
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
