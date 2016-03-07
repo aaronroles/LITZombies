@@ -25,12 +25,10 @@ public class Richie_Player : MonoBehaviour {
 				if (controller.moving.x == 1) {
 					anim.SetInteger ("AnimState", 1);
 					transform.localScale = new Vector3 (1, 1, 1);
-					print ("Right");
 				} 
 				else if (controller.moving.x == -1) {
 					anim.SetInteger ("AnimState", 1);
 					transform.localScale = new Vector3 (-1, 1, 1);
-					print ("Left");
 				}
 			}
 		}
@@ -40,11 +38,9 @@ public class Richie_Player : MonoBehaviour {
 				forceY = speed * controller.moving.y;
 				if (controller.moving.y == 1) {
 					anim.SetInteger ("AnimState", 2);
-					print ("Up");
 				} 
 				else if (controller.moving.y == -1) {
 					anim.SetInteger ("AnimState", 3);
-					print ("Down");
 				}
 			}
 		}
