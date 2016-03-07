@@ -47,6 +47,7 @@ public class Richie_Player : MonoBehaviour {
 
 		else {
 			anim.SetInteger("AnimState", 0);
+			transform.localScale = new Vector3 (1, 1, 1);
 		}
 
 		rigidbody2D.AddForce(new Vector2(forceX, forceY));
