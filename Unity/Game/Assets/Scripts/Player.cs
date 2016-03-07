@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Richie_Player : MonoBehaviour {
+public class Player : MonoBehaviour {
 
 	public float speed = 10f;
 	public Vector2 maxVelocity = new Vector2(3,3);
