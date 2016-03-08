@@ -4,17 +4,7 @@ using System.Collections;
 public class Explode : MonoBehaviour {
 
 	public BodyPart bodyPart;
-	public int totalParts = 5;
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	public int totalParts = 3;
 
 	void OnTriggerEnter2D(Collider2D t){
 		if (t.gameObject.tag == "Deadly") { 
@@ -30,7 +20,9 @@ public class Explode : MonoBehaviour {
 
 		for (int i = 0; i < totalParts; i++) {
 			t.TransformPoint(0, -100, 0);
-			Zombie_BodyPart clone = Instantiate(bodyPart, t.position, Quaternion.identity) as BodyPart;
+			//quaternion changes the rotation of the bodypart
+			BodyPart clone = Instantiate(bodyPart, t.position, Quaternion.identity) as BodyPart;
+			clone.rigidbody2D.AddForce(Vector3.right * Random.Range(-50, 50));
 		}
 	}
 
