@@ -19,6 +19,23 @@ public class Player : MonoBehaviour {
 		var absVelX = Mathf.Abs (rigidbody2D.velocity.x);
 		var absVelY = Mathf.Abs (rigidbody2D.velocity.y);
 
+		/*if (controller.attack) {
+			anim.SetTrigger("Attack");
+			if(controller.moving.x == 1){
+				print ("right");
+			}
+			else if (controller.moving.x == -1){
+				print ("left");
+			}
+
+			if(controller.moving.y == 1){
+				print ("up");
+			}
+			else if (controller.moving.y == -1){
+				print ("down");
+			}
+		}*/
+
 		if (controller.moving.x != 0) {
 			if (absVelX < maxVelocity.x) {
 				forceX = speed * controller.moving.x;

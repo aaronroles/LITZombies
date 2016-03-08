@@ -4,6 +4,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	public Vector2 moving = new Vector2();
+	public bool attack = false;
 	
 	// Update is called once per frame
 	void Update () {
@@ -21,6 +22,13 @@ public class PlayerController : MonoBehaviour {
 		}
 		else if(Input.GetKey(KeyCode.S)){
 			moving.y = -1;
+		}
+
+		if (Input.GetMouseButtonDown (0)) {
+			attack = true;
+		} 
+		else {
+			attack = false;
 		}
 	}
 }
