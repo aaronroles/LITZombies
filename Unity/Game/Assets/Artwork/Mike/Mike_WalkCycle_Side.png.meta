@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 776a2feb342ee214ab478e5c089ad080
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mike_WalkCycle_Side_0
+    21300002: Mike_WalkCycle_Side_2
+    21300004: Mike_WalkCycle_Side_4
+    21300006: Mike_WalkCycle_Side_5
+    21300008: Mike_WalkCycle_Side_6
+    21300010: Mike_WalkCycle_Side_7
+    21300012: Mike_WalkCycle_Side_9
+    21300014: Mike_WalkCycle_Side_11
+    21300016: Mike_WalkCycle_Side_13
+    21300018: Mike_WalkCycle_Side_14
+    21300020: Mike_WalkCycle_Side_15
+    21300022: Mike_WalkCycle_Side_16
+    21300024: Mike_WalkCycle_Side_1
+    21300026: Mike_WalkCycle_Side_10
+    21300028: Mike_WalkCycle_Side_3
+    21300030: Mike_WalkCycle_Side_8
+    21300032: Mike_WalkCycle_Side_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Mike_WalkCycle_Side_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_8
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_9
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_11
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_13
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_14
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_16
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mike_WalkCycle_Side_18
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 0
+        width: 26
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
