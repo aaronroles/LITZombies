@@ -54,9 +54,9 @@ TextureImporter:
     - name: Richie_Weapon_Cycle_0
       rect:
         serializedVersion: 2
-        x: 36
+        x: 33
         y: 0
-        width: 60
+        width: 39
         height: 54
       alignment: 9
       pivot: {x: .225907892, y: .478246629}
@@ -66,7 +66,7 @@ TextureImporter:
         serializedVersion: 2
         x: 132
         y: 0
-        width: 60
+        width: 39
         height: 54
       alignment: 9
       pivot: {x: .22982356, y: .473895967}
@@ -76,7 +76,7 @@ TextureImporter:
         serializedVersion: 2
         x: 228
         y: 0
-        width: 60
+        width: 39
         height: 54
       alignment: 9
       pivot: {x: .221992493, y: .478246629}
@@ -86,7 +86,7 @@ TextureImporter:
         serializedVersion: 2
         x: 324
         y: 0
-        width: 60
+        width: 39
         height: 54
       alignment: 9
       pivot: {x: .225907892, y: .478246629}
@@ -94,9 +94,9 @@ TextureImporter:
     - name: Richie_Weapon_Cycle_5
       rect:
         serializedVersion: 2
-        x: 420
+        x: 417
         y: 0
-        width: 60
+        width: 39
         height: 54
       alignment: 9
       pivot: {x: .225907892, y: .482597321}
@@ -104,9 +104,9 @@ TextureImporter:
     - name: Richie_Weapon_Cycle_6
       rect:
         serializedVersion: 2
-        x: 516
+        x: 513
         y: 0
-        width: 60
+        width: 39
         height: 54
       alignment: 9
       pivot: {x: .225908414, y: .482597321}
@@ -114,9 +114,9 @@ TextureImporter:
     - name: Richie_Weapon_Cycle_8
       rect:
         serializedVersion: 2
-        x: 612
+        x: 609
         y: 0
-        width: 60
+        width: 39
         height: 54
       alignment: 9
       pivot: {x: .225908414, y: .482597321}

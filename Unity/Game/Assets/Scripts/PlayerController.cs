@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour {
 			moving.y = -1;
 		}
 
-		if (Input.GetMouseButtonDown (0)) {
+		if (Input.GetMouseButton (0)) {
 			attack = true;
 		} 
 		else {
