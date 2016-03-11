@@ -7,11 +7,13 @@ public class Player : MonoBehaviour
 	public Vector2 maxVelocity = new Vector2 (3, 3);
 	private PlayerController controller;
 	private Animator anim;
+	public Collider2D attackTrigger0;
 
 	void Start ()
 	{
 		controller = GetComponent<PlayerController> ();
 		anim = GetComponent<Animator> ();
+		attackTrigger0.enabled = false;
 	}
 	
 	void Update ()
@@ -23,6 +25,7 @@ public class Player : MonoBehaviour
 		anim.SetBool("Attack", false);
 
 		if (controller.moving.x != 0 && controller.attack == false) {
+			attackTrigger0.enabled = false;
 			if (absVelX < maxVelocity.x) {
 				forceX = speed * controller.moving.x;
 				if (controller.moving.x == 1) {
@@ -37,6 +40,7 @@ public class Player : MonoBehaviour
 		} 
 
 		else if (controller.moving.x != 0 && controller.attack == true) {
+			attackTrigger0.enabled = true;
 			if (absVelX < maxVelocity.x) {
 				forceX = speed * controller.moving.x;
 				if (controller.moving.x == 1) {
