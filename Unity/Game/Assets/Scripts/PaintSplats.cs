@@ -7,7 +7,7 @@ public class PaintSplats : MonoBehaviour {
 	public int totalSplats = 5;
 
 	void OnTriggerEnter2D(Collider2D other){
-		if (other.gameObject.tag == "Dummy") {
+		if (other.gameObject.tag == "Enemy") {
 			Splat();
 		}
 	}
