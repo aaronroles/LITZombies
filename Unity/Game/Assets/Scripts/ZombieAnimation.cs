@@ -34,22 +34,24 @@ public class ZombieAnimation : MonoBehaviour {
 			animator.SetBool("ZombieFrontWalk", false);
 			animator.SetBool("ZombieBackWalk", false);
 		}
-		else if(rigidbody2D.velocity.y > -0.2){
-			print ("up");
-			animator.SetBool("ZombieStill", false);
-			animator.SetBool("ZombieSideWalk", false);
-			animator.SetBool("ZombieFrontWalk", false);
-			animator.SetBool("ZombieBackWalk", true);
-		}
-		else if(rigidbody2D.velocity.y < 0.2){
-			print ("down");
+
+
+		if(rigidbody2D.velocity.y < -0.2){
+			//print ("up");
 			animator.SetBool("ZombieStill", false);
 			animator.SetBool("ZombieSideWalk", false);
 			animator.SetBool("ZombieFrontWalk", true);
 			animator.SetBool("ZombieBackWalk", false);
 		}
+		else if(rigidbody2D.velocity.y > 0.2){
+			//print ("down");
+			animator.SetBool("ZombieStill", false);
+			animator.SetBool("ZombieSideWalk", false);
+			animator.SetBool("ZombieFrontWalk", false);
+			animator.SetBool("ZombieBackWalk", true);
+		}
 		else if(rigidbody2D.velocity.y > -0.2 && rigidbody2D.velocity.y < 0.2){
-			print ("Idle2");
+			//print ("Idle2");
 			animator.SetBool("ZombieStill", true);
 			animator.SetBool("ZombieSideWalk", false);
 			animator.SetBool("ZombieFrontWalk", false);
