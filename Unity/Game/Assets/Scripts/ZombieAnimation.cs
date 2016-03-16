@@ -11,12 +11,12 @@ public class ZombieAnimation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		print (rigidbody2D.velocity.x);
 		if(rigidbody2D.velocity.x > 0.2){
 			animator.SetBool("ZombieStill", false);
 			animator.SetBool("ZombieSideWalk", true);
 			animator.SetBool("ZombieFrontWalk", false);
 			animator.SetBool("ZombieBackWalk", false);
+			transform.localScale = new Vector3(1,1,1); // Flips zombie to the right
 		}
 
 		if(rigidbody2D.velocity.x < -0.2){
@@ -24,6 +24,7 @@ public class ZombieAnimation : MonoBehaviour {
 			animator.SetBool("ZombieSideWalk", true);
 			animator.SetBool("ZombieFrontWalk", false);
 			animator.SetBool("ZombieBackWalk", false);
+			transform.localScale = new Vector3(-1,1,1); // Flips zombie to the left
 		}
 
 		if(rigidbody2D.velocity.y < -0.2){
