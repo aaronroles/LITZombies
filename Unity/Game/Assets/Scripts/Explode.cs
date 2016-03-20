@@ -13,7 +13,7 @@ public class Explode : MonoBehaviour {
 		}
 	}
 
-	void OnExplode(){
+	public void OnExplode(){
 		Destroy (gameObject);
 
 		var t = transform;
