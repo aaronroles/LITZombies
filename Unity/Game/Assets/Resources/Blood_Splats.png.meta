@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: b5da7e039883aeb4e962ccd27677c84e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Blood_Splats_0
+    21300002: Blood_Splats_1
+    21300004: Blood_Splats_2
+    21300006: Blood_Splats_3
+    21300008: Blood_Splats_4
+    21300010: Blood_Splats_5
+    21300012: Blood_Splats_6
+    21300014: Blood_Splats_7
+    21300016: Blood_Splats_8
+    21300018: Blood_Splats_9
+    21300020: Blood_Splats_10
+    21300022: Blood_Splats_11
+    21300024: Blood_Splats_12
+    21300026: Blood_Splats_13
+    21300028: Blood_Splats_14
+    21300030: Blood_Splats_15
+    21300032: Blood_Splats_16
+    21300034: Blood_Splats_17
+    21300036: Blood_Splats_18
+    21300038: Blood_Splats_19
+    21300040: Blood_Splats_20
+    21300042: Blood_Splats_21
+    21300044: Blood_Splats_22
+    21300046: Blood_Splats_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Blood_Splats_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 87
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 87
+        width: 3
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 87
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 90
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 87
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 87
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 72
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 72
+        width: 3
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 72
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 75
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_14
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 72
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 72
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 57
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 57
+        width: 3
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 57
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_21
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 60
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 57
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Blood_Splats_23
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 57
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
