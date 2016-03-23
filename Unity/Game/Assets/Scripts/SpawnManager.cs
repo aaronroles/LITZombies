@@ -4,17 +4,29 @@ using System.Collections;
 public class SpawnManager : MonoBehaviour {
 
 	public GameObject enemy;
-	public float spawnTime = 5f;
 	public Transform[] spawnPoints;
-	private int spawnCounter = 1;
+	public static int spawnCounter = 3;
+	private int spawnCount = 3;
+	private int round = 1;
 
 	void Start () {
-		InvokeRepeating ("Spawn", spawnTime, spawnTime);
+		// On Start, call spawn
+		Spawn ();
+	}
+
+	void Update(){
+		if (spawnCounter == 0) {
+			spawnCount += 2;
+			spawnCounter = spawnCount;
+			Spawn ();
+		}
 	}
 
 	void Spawn(){
-		int spawnPointIndex = Random.Range (0, spawnPoints.Length);
-		Instantiate (enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
-		print (spawnCounter++);
+		print (spawnCounter);
+		for (int i=0; i<spawnCounter; i++) {
+			int spawnPointIndex = Random.Range (0, spawnPoints.Length);
+			Instantiate (enemy, spawnPoints [spawnPointIndex].position, spawnPoints [spawnPointIndex].rotation);
+		}
 	} 
 }

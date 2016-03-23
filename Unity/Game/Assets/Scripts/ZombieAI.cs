@@ -7,12 +7,12 @@ public class ZombieAI : MonoBehaviour {
 	private Vector2 playerDirection;
 	private float xDiff;
 	private float yDiff;
-	public float speed;
+	private float speed;
 	private float distance;
 	private Animator anim;
 
 	void Start () {
-		speed = 3;
+		speed = Random.Range(1,5);
 		anim = GetComponent<Animator> ();
 	}
 	
@@ -25,7 +25,7 @@ public class ZombieAI : MonoBehaviour {
 			playerDirection = new Vector2 (xDiff, yDiff);
 			distance = Vector2.Distance (player, transform.position);
 
-			if (distance < 1.5) {
+			if (distance < 5) {
 				rigidbody2D.AddForce (playerDirection.normalized * speed);
 			}
 		} 
