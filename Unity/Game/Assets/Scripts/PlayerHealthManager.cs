@@ -5,22 +5,37 @@ using System.Collections;
 public class PlayerHealthManager : MonoBehaviour {
 
 	public static int health;
-	Text text;
+	Text healthText;
 
 	void Awake(){
 		health = 50;
-		text = GetComponent<Text> ();
+		healthText = GetComponent<Text> ();
 	}
 
 	void Update () {
 		if(health <= 0){
-			//Destroy(gameObject); Until the death body parts are added
-			print ("You are dead");
+			// If the object has the Explode script
+			if(gameObject.GetComponent<Explode>()){
+				gameObject.GetComponent<Explode>().OnExplode();
+			}
+			// Go to death scene
+			SetScore ();
 		}
-		text.text = "Health: " + health;
+
+		// If the object has a text component
+		if (gameObject.GetComponent<Text> () && health > 0) {
+			healthText.text = "Health: " + health;
+		}
 	}
 	
 	public void Damage(int dmg){
 		health -= dmg;
+	}
+
+	void SetScore(){
+		health = 0;
+		if (gameObject.GetComponent<Text> ()) {
+			healthText.text = "Dead";
+		}
 	}
 }

@@ -5,14 +5,14 @@ using System.Collections;
 public class ScoreManager : MonoBehaviour {
 
 	public static int score;
-	Text text;
+	Text scoreText;
 
 	void Awake () {
 		score = 0;
-		text = GetComponent<Text> ();
+		scoreText = GetComponent<Text> ();
 	}
 	
 	void Update () {
-		text.text = "Score: " + score;
+		scoreText.text = "Score: " + score;
 	}
 }

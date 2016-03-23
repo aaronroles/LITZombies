@@ -6,13 +6,6 @@ public class Explode : MonoBehaviour {
 	public BodyPart bodyPart;
 	public int totalParts = 3;
 
-	void OnTriggerEnter2D(Collider2D t){
-		if (t.gameObject.tag == "Deadly") { 
-			OnExplode();
-			print ("test");
-		}
-	}
-
 	public void OnExplode(){
 		Destroy (gameObject);
 
