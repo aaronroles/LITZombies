@@ -18,15 +18,23 @@ public class SpawnManager : MonoBehaviour {
 		if (spawnCounter == 0) {
 			spawnCount += 2;
 			spawnCounter = spawnCount;
+			round++;
 			Spawn ();
 		}
 	}
 
 	void Spawn(){
-		print (spawnCounter);
+		StartCoroutine(Round(round, 2));
 		for (int i=0; i<spawnCounter; i++) {
 			int spawnPointIndex = Random.Range (0, spawnPoints.Length);
 			Instantiate (enemy, spawnPoints [spawnPointIndex].position, spawnPoints [spawnPointIndex].rotation);
 		}
-	} 
+	}
+
+	IEnumerator Round(float roundNo, float delay){
+		guiText.text = "Round " + roundNo;
+		guiText.enabled = true;
+		yield return new WaitForSeconds(delay);
+		guiText.enabled = false;
+	}
 }
