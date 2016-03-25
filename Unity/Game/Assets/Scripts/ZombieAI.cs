@@ -9,11 +9,9 @@ public class ZombieAI : MonoBehaviour {
 	private float yDiff;
 	private float speed;
 	private float distance;
-	private Animator anim;
 
 	void Start () {
 		speed = Random.Range(1,5);
-		anim = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
