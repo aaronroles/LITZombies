@@ -18,6 +18,17 @@ TextureImporter:
     21300026: Bernie_Idle_21
     21300028: Bernie_Idle_24
     21300030: Bernie_Idle_25
+    21300032: Bernie_Idle_0
+    21300034: Bernie_Idle_1
+    21300036: Bernie_Idle_4
+    21300038: Bernie_Idle_6
+    21300040: Bernie_Idle_8
+    21300042: Bernie_Idle_12
+    21300044: Bernie_Idle_14
+    21300046: Bernie_Idle_17
+    21300048: Bernie_Idle_19
+    21300050: Bernie_Idle_22
+    21300052: Bernie_Idle_23
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -66,18 +77,18 @@ TextureImporter:
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_2
+    - name: Bernie_Idle_1
       rect:
         serializedVersion: 2
         x: 132
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bernie_Idle_3
       rect:
@@ -86,138 +97,138 @@ TextureImporter:
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_5
+    - name: Bernie_Idle_4
       rect:
         serializedVersion: 2
         x: 324
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_7
+    - name: Bernie_Idle_5
       rect:
         serializedVersion: 2
         x: 420
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_9
+    - name: Bernie_Idle_6
       rect:
         serializedVersion: 2
         x: 516
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_10
+    - name: Bernie_Idle_7
       rect:
         serializedVersion: 2
         x: 612
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_11
+    - name: Bernie_Idle_8
       rect:
         serializedVersion: 2
         x: 708
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_13
+    - name: Bernie_Idle_9
       rect:
         serializedVersion: 2
         x: 804
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .49999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_15
+    - name: Bernie_Idle_10
       rect:
         serializedVersion: 2
         x: 900
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .49999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_16
+    - name: Bernie_Idle_11
       rect:
         serializedVersion: 2
         x: 996
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_18
+    - name: Bernie_Idle_12
       rect:
         serializedVersion: 2
         x: 1092
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_20
+    - name: Bernie_Idle_13
       rect:
         serializedVersion: 2
         x: 1188
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_21
+    - name: Bernie_Idle_14
       rect:
         serializedVersion: 2
         x: 1284
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_24
+    - name: Bernie_Idle_15
       rect:
         serializedVersion: 2
         x: 1380
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bernie_Idle_25
+    - name: 
       rect:
         serializedVersion: 2
         x: 1476
         y: 0
         width: 36
         height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
