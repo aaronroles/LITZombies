@@ -1,18 +1,17 @@
 fileFormatVersion: 2
-guid: 2949dec1ea3f4ab45b9a3481bd366cdc
+guid: 2c69be0183aab6648877ab9488a8bc66
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BernieWalkCycle_0
-    21300002: BernieWalkCycle_1
-    21300004: BernieWalkCycle_2
-    21300006: BernieWalkCycle_3
-    21300008: BernieWalkCycle_4
-    21300010: BernieWalkCycle_5
-    21300012: BernieWalkCycle_6
-    21300014: BernieWalkCycle_7
-    21300016: BernieWalkCycle_8
-    21300018: BernieWalkCycle_9
-    21300020: BernieWalkCycle_10
+    21300000: BernieWalkCycle_back_0
+    21300002: BernieWalkCycle_back_1
+    21300004: BernieWalkCycle_back_2
+    21300006: BernieWalkCycle_back_4
+    21300008: BernieWalkCycle_back_6
+    21300010: BernieWalkCycle_back_7
+    21300012: BernieWalkCycle_back_8
+    21300014: BernieWalkCycle_back_9
+    21300016: BernieWalkCycle_back_11
+    21300018: BernieWalkCycle_back_14
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,112 +53,102 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: BernieWalkCycle_0
+    - name: BernieWalkCycle_back_0
       rect:
         serializedVersion: 2
-        x: 33
+        x: 30
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_1
+    - name: BernieWalkCycle_back_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 126
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_2
+    - name: BernieWalkCycle_back_2
       rect:
         serializedVersion: 2
-        x: 224
+        x: 222
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_3
+    - name: BernieWalkCycle_back_4
       rect:
         serializedVersion: 2
-        x: 320
+        x: 318
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_4
+    - name: BernieWalkCycle_back_6
       rect:
         serializedVersion: 2
-        x: 416
+        x: 414
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_5
+    - name: BernieWalkCycle_back_7
       rect:
         serializedVersion: 2
-        x: 512
+        x: 510
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_6
+    - name: BernieWalkCycle_back_8
       rect:
         serializedVersion: 2
-        x: 608
+        x: 606
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_7
+    - name: BernieWalkCycle_back_9
       rect:
         serializedVersion: 2
-        x: 704
+        x: 702
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_8
+    - name: BernieWalkCycle_back_11
       rect:
         serializedVersion: 2
-        x: 800
+        x: 798
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_9
+    - name: BernieWalkCycle_back_14
       rect:
         serializedVersion: 2
-        x: 896
+        x: 894
         y: 0
-        width: 32
-        height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_10
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}

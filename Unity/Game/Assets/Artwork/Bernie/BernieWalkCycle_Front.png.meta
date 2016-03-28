@@ -1,18 +1,17 @@
 fileFormatVersion: 2
-guid: 2949dec1ea3f4ab45b9a3481bd366cdc
+guid: da81c781d03b65c489e986e343ff5f48
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BernieWalkCycle_0
-    21300002: BernieWalkCycle_1
-    21300004: BernieWalkCycle_2
-    21300006: BernieWalkCycle_3
-    21300008: BernieWalkCycle_4
-    21300010: BernieWalkCycle_5
-    21300012: BernieWalkCycle_6
-    21300014: BernieWalkCycle_7
-    21300016: BernieWalkCycle_8
-    21300018: BernieWalkCycle_9
-    21300020: BernieWalkCycle_10
+    21300000: BernieWalkCycle_Front_0
+    21300002: BernieWalkCycle_Front_1
+    21300004: BernieWalkCycle_Front_4
+    21300006: BernieWalkCycle_Front_6
+    21300008: BernieWalkCycle_Front_7
+    21300010: BernieWalkCycle_Front_8
+    21300012: BernieWalkCycle_Front_9
+    21300014: BernieWalkCycle_Front_11
+    21300016: BernieWalkCycle_Front_13
+    21300018: BernieWalkCycle_Front_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,112 +53,102 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: BernieWalkCycle_0
+    - name: BernieWalkCycle_Front_0
       rect:
         serializedVersion: 2
-        x: 33
+        x: 31
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_1
+    - name: BernieWalkCycle_Front_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 127
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_2
+    - name: BernieWalkCycle_Front_4
       rect:
         serializedVersion: 2
-        x: 224
+        x: 223
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_3
+    - name: BernieWalkCycle_Front_6
       rect:
         serializedVersion: 2
-        x: 320
+        x: 319
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_4
+    - name: BernieWalkCycle_Front_7
       rect:
         serializedVersion: 2
-        x: 416
+        x: 415
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_5
+    - name: BernieWalkCycle_Front_8
       rect:
         serializedVersion: 2
-        x: 512
+        x: 511
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_6
+    - name: BernieWalkCycle_Front_9
       rect:
         serializedVersion: 2
-        x: 608
+        x: 607
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_7
+    - name: BernieWalkCycle_Front_11
       rect:
         serializedVersion: 2
-        x: 704
+        x: 703
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_8
+    - name: BernieWalkCycle_Front_13
       rect:
         serializedVersion: 2
-        x: 800
+        x: 799
         y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_9
+    - name: BernieWalkCycle_Front_15
       rect:
         serializedVersion: 2
-        x: 896
+        x: 895
         y: 0
-        width: 32
-        height: 54
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: BernieWalkCycle_10
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 0
-        width: 32
+        width: 34
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
