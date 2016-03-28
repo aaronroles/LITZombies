@@ -47,9 +47,9 @@ TextureImporter:
     - name: BernieStill_0
       rect:
         serializedVersion: 2
-        x: 31
+        x: 36
         y: 0
-        width: 34
+        width: 24
         height: 54
       alignment: 0
       pivot: {x: .5, y: .5}
