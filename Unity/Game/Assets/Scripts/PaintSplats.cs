@@ -4,7 +4,7 @@ using System.Collections;
 public class PaintSplats : MonoBehaviour {
 
 	public Paint splats;
-	public int totalSplats = 2;
+	public int totalSplats = 1;
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.tag == "Enemy") {
