@@ -16,19 +16,24 @@ public class ZombieAI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (GameObject.FindWithTag ("Player")) {
-			player = GameObject.FindWithTag ("Player").transform.position;
-			xDiff = player.x - transform.position.x;
-			yDiff = player.y - transform.position.y;
-			playerDirection = new Vector2 (xDiff, yDiff);
-			distance = Vector2.Distance (player, transform.position);
-
-			if (distance < 5) {
+		if (Time.timeScale == 0) {
+			// Game is paused, do nothing
+		}
+		else if(Time.timeScale == 1){
+			if (GameObject.FindWithTag ("Player")) {
+				player = GameObject.FindWithTag ("Player").transform.position;
+				xDiff = player.x - transform.position.x;
+				yDiff = player.y - transform.position.y;
+				playerDirection = new Vector2 (xDiff, yDiff);
+				distance = Vector2.Distance (player, transform.position);
+			}
+			
+			if(distance < 5) {
 				rigidbody2D.AddForce (playerDirection.normalized * speed);
 			}
 		} 
 
-		else {	
+		else{	
 			player.x = player.y = player.z = 0;
 		}
 	}

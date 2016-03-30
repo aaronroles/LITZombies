@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour {
 
 	public Vector2 moving = new Vector2();
 	public bool attack = false;
+	public bool paused = false;
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,5 +31,6 @@ public class PlayerController : MonoBehaviour {
 		else {
 			attack = false;
 		}
+
 	}
 }
