@@ -11,7 +11,7 @@ public class ZombieAI : MonoBehaviour {
 	private float distance;
 
 	void Start () {
-		speed = Random.Range(1,5);
+		speed = (Random.Range (3, 7));
 	}
 	
 	// Update is called once per frame
@@ -28,7 +28,7 @@ public class ZombieAI : MonoBehaviour {
 				distance = Vector2.Distance (player, transform.position);
 			}
 			
-			if(distance < 5) {
+			if(distance < 10) {
 				rigidbody2D.AddForce (playerDirection.normalized * speed);
 			}
 		} 
