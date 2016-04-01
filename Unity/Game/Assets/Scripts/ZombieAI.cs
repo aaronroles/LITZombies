@@ -32,7 +32,6 @@ public class ZombieAI : MonoBehaviour {
 				rigidbody2D.AddForce (playerDirection.normalized * speed);
 			}
 		} 
-
 		else{	
 			player.x = player.y = player.z = 0;
 		}
