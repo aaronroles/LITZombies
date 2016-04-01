@@ -4,6 +4,7 @@ using System.Collections;
 
 public class RoundManager : MonoBehaviour {
 
+
 	public static int round;
 	Text roundText;
 
@@ -13,6 +14,8 @@ public class RoundManager : MonoBehaviour {
 	}
 	
 	void Update () {
+		// Show the current round on screen
+		// Round incremented from SpawnManager
 		roundText.text = "ROUND " + round;
 	}
 }

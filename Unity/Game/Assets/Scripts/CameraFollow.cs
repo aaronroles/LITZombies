@@ -15,6 +15,7 @@ public class CameraFollow : MonoBehaviour {
 	void Update () {
 		// If the target (player) is in the scene
 		if (target != null) {
+			// Follow the target's position
 			transform.position = new Vector3 (_t.position.x, _t.position.y, transform.position.z);
 		}
 	}
