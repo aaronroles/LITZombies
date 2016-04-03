@@ -4,8 +4,7 @@ using System.Collections;
 public class AttackTriggersPlayer : MonoBehaviour {
 
 	public int playerAttack = 2;
-
-
+	
 	// ***ONCOLLISION VS ONTRIGGER*** 
 	void OnTriggerEnter2D(Collider2D other){
 		// If Player collides with Enemy object
