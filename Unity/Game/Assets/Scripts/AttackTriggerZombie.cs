@@ -13,4 +13,5 @@ public class AttackTriggerZombie : MonoBehaviour {
 			other.GetComponent<PlayerHealthManager>().Damage(zombieAttack);
 		}
 	}
+
 }

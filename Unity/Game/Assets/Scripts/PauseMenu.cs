@@ -10,6 +10,10 @@ public class PauseMenu : MonoBehaviour {
 	public GameObject theHud;
 	public GameObject settingsPanel;
 	public GameObject helpPanel;
+
+	void Start(){
+		paused = settings = help = false;
+	}
 	
 	// Update is called once per frame
 	void Update () {
