@@ -1,7 +1,18 @@
 fileFormatVersion: 2
 guid: 86fab4397f5696c4eaac0936d12752d3
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: MikeWalk_Side_Fixed_0
+    21300002: MikeWalk_Side_Fixed_1
+    21300004: MikeWalk_Side_Fixed_2
+    21300006: MikeWalk_Side_Fixed_3
+    21300008: MikeWalk_Side_Fixed_4
+    21300010: MikeWalk_Side_Fixed_5
+    21300012: MikeWalk_Side_Fixed_6
+    21300014: MikeWalk_Side_Fixed_7
+    21300016: MikeWalk_Side_Fixed_8
+    21300018: MikeWalk_Side_Fixed_9
+    21300020: MikeWalk_Side_Fixed_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -21,17 +32,17 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +53,116 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: MikeWalk_Side_Fixed_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_6
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_7
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_9
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeWalk_Side_Fixed_10
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 0
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

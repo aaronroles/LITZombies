@@ -1,7 +1,20 @@
 fileFormatVersion: 2
 guid: 69f85770e7f344c4791dfe1b0ccc0610
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: MikeSide_Weapon_0
+    21300002: MikeSide_Weapon_1
+    21300004: MikeSide_Weapon_2
+    21300006: MikeSide_Weapon_3
+    21300008: MikeSide_Weapon_4
+    21300010: MikeSide_Weapon_5
+    21300012: MikeSide_Weapon_6
+    21300014: MikeSide_Weapon_7
+    21300016: MikeSide_Weapon_8
+    21300018: MikeSide_Weapon_9
+    21300020: MikeSide_Weapon_10
+    21300022: MikeSide_Weapon_11
+    21300024: MikeSide_Weapon_12
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -21,17 +34,17 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +55,136 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: MikeSide_Weapon_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_4
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_6
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_7
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_9
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 0
+        width: 51
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_10
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_11
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_Weapon_12
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 0
+        width: 50
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
