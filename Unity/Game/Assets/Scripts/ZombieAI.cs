@@ -33,8 +33,7 @@ public class ZombieAI : MonoBehaviour {
 
 			// If the distance is close enough
 			if(distance < 50) {
-				// Apply a force to move the zombie 
-				// towards the player
+				// Apply a force to move the zombie towards the player
 				rigidbody2D.AddForce (playerDirection.normalized * speed);
 			}
 		} 
