@@ -13,6 +13,17 @@ TextureImporter:
     21300016: MikeWalk_Side_Fixed_8
     21300018: MikeWalk_Side_Fixed_9
     21300020: MikeWalk_Side_Fixed_10
+    21300022: MikeWalk_Side_Fixed_0
+    21300024: MikeWalk_Side_Fixed_1
+    21300026: MikeWalk_Side_Fixed_2
+    21300028: MikeWalk_Side_Fixed_3
+    21300030: MikeWalk_Side_Fixed_4
+    21300032: MikeWalk_Side_Fixed_5
+    21300034: MikeWalk_Side_Fixed_6
+    21300036: MikeWalk_Side_Fixed_7
+    21300038: MikeWalk_Side_Fixed_8
+    21300040: MikeWalk_Side_Fixed_9
+    21300042: MikeWalk_Side_Fixed_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -60,9 +71,9 @@ TextureImporter:
         x: 31
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_1
       rect:
@@ -70,9 +81,9 @@ TextureImporter:
         x: 127
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_2
       rect:
@@ -80,9 +91,9 @@ TextureImporter:
         x: 223
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_3
       rect:
@@ -90,9 +101,9 @@ TextureImporter:
         x: 319
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_4
       rect:
@@ -100,9 +111,9 @@ TextureImporter:
         x: 415
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_5
       rect:
@@ -110,9 +121,9 @@ TextureImporter:
         x: 511
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_6
       rect:
@@ -120,9 +131,9 @@ TextureImporter:
         x: 607
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_7
       rect:
@@ -130,9 +141,9 @@ TextureImporter:
         x: 703
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_8
       rect:
@@ -140,9 +151,9 @@ TextureImporter:
         x: 799
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_9
       rect:
@@ -150,9 +161,9 @@ TextureImporter:
         x: 895
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: MikeWalk_Side_Fixed_10
       rect:
@@ -160,9 +171,9 @@ TextureImporter:
         x: 991
         y: 0
         width: 32
-        height: 52
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

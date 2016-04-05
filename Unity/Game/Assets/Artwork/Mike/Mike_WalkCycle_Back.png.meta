@@ -14,6 +14,10 @@ TextureImporter:
     21300018: Mike_WalkCycle_Back_16
     21300020: Mike_WalkCycle_Back_18
     21300022: Mike_WalkCycle_Back_1
+    21300024: Mike_WalkCycle_Back_3
+    21300026: Mike_WalkCycle_Back_5
+    21300028: Mike_WalkCycle_Back_7
+    21300030: Mike_WalkCycle_Back_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -62,8 +66,8 @@ TextureImporter:
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Mike_WalkCycle_Back_1
       rect:
@@ -72,98 +76,98 @@ TextureImporter:
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mike_WalkCycle_Back_4
+    - name: Mike_WalkCycle_Back_2
       rect:
         serializedVersion: 2
         x: 228
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mike_WalkCycle_Back_6
+    - name: Mike_WalkCycle_Back_3
       rect:
         serializedVersion: 2
         x: 324
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mike_WalkCycle_Back_8
+    - name: Mike_WalkCycle_Back_4
       rect:
         serializedVersion: 2
         x: 420
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mike_WalkCycle_Back_9
+    - name: Mike_WalkCycle_Back_5
       rect:
         serializedVersion: 2
         x: 516
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mike_WalkCycle_Back_11
+    - name: Mike_WalkCycle_Back_6
       rect:
         serializedVersion: 2
         x: 612
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mike_WalkCycle_Back_12
+    - name: Mike_WalkCycle_Back_7
       rect:
         serializedVersion: 2
         x: 708
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mike_WalkCycle_Back_14
+    - name: Mike_WalkCycle_Back_8
       rect:
         serializedVersion: 2
         x: 804
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mike_WalkCycle_Back_16
+    - name: Mike_WalkCycle_Back_9
       rect:
         serializedVersion: 2
         x: 900
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Mike_WalkCycle_Back_18
+    - name: Mike_WalkCycle_Back_10
       rect:
         serializedVersion: 2
         x: 996
         y: 0
         width: 21
         height: 51
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

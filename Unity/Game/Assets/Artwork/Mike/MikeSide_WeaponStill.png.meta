@@ -1,20 +1,20 @@
 fileFormatVersion: 2
-guid: 69f85770e7f344c4791dfe1b0ccc0610
+guid: 2acf80a5d8f7ded4083db32483842d8a
 TextureImporter:
   fileIDToRecycleName:
-    21300000: MikeSide_Weapon_0
-    21300002: MikeSide_Weapon_1
-    21300004: MikeSide_Weapon_2
-    21300006: MikeSide_Weapon_3
-    21300008: MikeSide_Weapon_4
-    21300010: MikeSide_Weapon_5
-    21300012: MikeSide_Weapon_6
-    21300014: MikeSide_Weapon_7
-    21300016: MikeSide_Weapon_8
-    21300018: MikeSide_Weapon_9
-    21300020: MikeSide_Weapon_10
-    21300022: MikeSide_Weapon_11
-    21300024: MikeSide_Weapon_12
+    21300000: MikeSide_WeaponStill_0
+    21300002: MikeSide_WeaponStill_1
+    21300004: MikeSide_WeaponStill_2
+    21300006: MikeSide_WeaponStill_3
+    21300008: MikeSide_WeaponStill_4
+    21300010: MikeSide_WeaponStill_5
+    21300012: MikeSide_WeaponStill_6
+    21300014: MikeSide_WeaponStill_7
+    21300016: MikeSide_WeaponStill_8
+    21300018: MikeSide_WeaponStill_9
+    21300020: MikeSide_WeaponStill_10
+    21300022: MikeSide_WeaponStill_11
+    21300024: MikeSide_WeaponStill_12
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -56,135 +56,135 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: MikeSide_Weapon_0
+    - name: MikeSide_WeaponStill_0
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_1
+    - name: MikeSide_WeaponStill_1
       rect:
         serializedVersion: 2
-        x: 129
+        x: 130
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_2
+    - name: MikeSide_WeaponStill_2
       rect:
         serializedVersion: 2
-        x: 225
+        x: 226
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_3
+    - name: MikeSide_WeaponStill_3
       rect:
         serializedVersion: 2
-        x: 321
+        x: 322
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_4
+    - name: MikeSide_WeaponStill_4
       rect:
         serializedVersion: 2
-        x: 417
+        x: 418
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_5
+    - name: MikeSide_WeaponStill_5
       rect:
         serializedVersion: 2
-        x: 513
+        x: 514
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_6
+    - name: MikeSide_WeaponStill_6
       rect:
         serializedVersion: 2
-        x: 609
+        x: 610
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_7
+    - name: MikeSide_WeaponStill_7
       rect:
         serializedVersion: 2
-        x: 705
+        x: 706
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_8
+    - name: MikeSide_WeaponStill_8
       rect:
         serializedVersion: 2
-        x: 801
+        x: 802
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_9
+    - name: MikeSide_WeaponStill_9
       rect:
         serializedVersion: 2
-        x: 897
-        y: 0
-        width: 51
-        height: 57
-      alignment: 9
-      pivot: {x: .272000015, y: .446999997}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_10
-      rect:
-        serializedVersion: 2
-        x: 993
+        x: 898
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_11
+    - name: MikeSide_WeaponStill_10
       rect:
         serializedVersion: 2
-        x: 1089
+        x: 994
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: MikeSide_Weapon_12
+    - name: MikeSide_WeaponStill_11
       rect:
         serializedVersion: 2
-        x: 1185
+        x: 1090
         y: 0
         width: 50
         height: 57
       alignment: 9
-      pivot: {x: .272000015, y: .446999997}
+      pivot: {x: .252999991, y: .446999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MikeSide_WeaponStill_12
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 0
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: .252999991, y: .446999997}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
