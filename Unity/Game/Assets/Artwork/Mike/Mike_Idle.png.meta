@@ -3,6 +3,7 @@ guid: 4de29334b31056841a142ec11d012fa0
 TextureImporter:
   fileIDToRecycleName:
     21300000: Mike_Idle_0
+    21300002: Mike_Ilde_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -44,15 +45,15 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Mike_Idle_0
+    - name: Mike_Ilde_0
       rect:
         serializedVersion: 2
         x: 36
         y: 0
-        width: 51
-        height: 72
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
