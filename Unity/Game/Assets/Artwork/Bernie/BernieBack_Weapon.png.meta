@@ -1,7 +1,17 @@
 fileFormatVersion: 2
 guid: 0c62d29cf43c82f4eb7b3794c0dded3b
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: BernieBack_Weapon_0
+    21300002: BernieBack_Weapon_2
+    21300004: BernieBack_Weapon_4
+    21300006: BernieBack_Weapon_6
+    21300008: BernieBack_Weapon_8
+    21300010: BernieBack_Weapon_10
+    21300012: BernieBack_Weapon_12
+    21300014: BernieBack_Weapon_14
+    21300016: BernieBack_Weapon_16
+    21300018: BernieBack_Weapon_18
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -21,17 +31,17 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +52,106 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: BernieBack_Weapon_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BernieBack_Weapon_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BernieBack_Weapon_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BernieBack_Weapon_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BernieBack_Weapon_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BernieBack_Weapon_10
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BernieBack_Weapon_12
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BernieBack_Weapon_14
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BernieBack_Weapon_16
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BernieBack_Weapon_18
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
