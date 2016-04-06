@@ -12,9 +12,11 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 	private Animator animator;
 	private Vector2 lastPosition;
 	private Vector2 currentPosition;
+	private GameObject thePlayer;
 
 	void Start(){
 		animator = GetComponent<Animator> ();
+		thePlayer = GameObject.FindWithTag ("Player");
 	}
 
 	public KDNav2DAgent Zombie
@@ -22,7 +24,7 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 		get { return m_agent ?? (m_agent = GetComponent<KDNav2DAgent>()); }
 	}
 	
-	protected void Update () {
+	void Update () {
 		// If the game is paused
 		if (Time.timeScale == 0) {
 			// Game is paused, do nothing
@@ -31,11 +33,15 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 		else if(Time.timeScale == 1){
 			currentPosition = gameObject.transform.position;
 			// If the player object exists
-			if (GameObject.FindWithTag ("Player")) {
+			if (thePlayer) {
 				// Find it's position and track it
-				playerX = GameObject.FindWithTag ("Player").transform.position.x;
-				playerY = GameObject.FindWithTag ("Player").transform.position.y;
+				playerX = thePlayer.transform.position.x;
+				playerY = thePlayer.transform.position.y;
 				playerDirection = new Vector2 (playerX, playerY);
+				// Send the zombie to the player's direction
+				Zombie.SetDestination(playerDirection);
+
+				Debug.Log ("Player is: " + playerDirection + ". Zombie is: " + currentPosition);
 
 				// If current x position is greater than last x position
 				// Going to the right
@@ -49,7 +55,7 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 				
 				// If current x position is less than last x position
 				// Going to the left
-				if(currentPosition.x < lastPosition.x){
+				else if(currentPosition.x < lastPosition.x){
 					animator.SetBool("ZombieStill", false);
 					animator.SetBool("ZombieSideWalk", true);
 					animator.SetBool("ZombieFrontWalk", false);
@@ -58,7 +64,7 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 				}
 				
 				// If current y position is greater than last y position
-				// Going to the right
+				// Going down
 				if(currentPosition.y < lastPosition.y){
 					animator.SetBool("ZombieStill", false);
 					animator.SetBool("ZombieSideWalk", false);
@@ -67,14 +73,16 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 				}
 				
 				// If current y position is less than last y position
-				// Going to the right
-				if(currentPosition.y > lastPosition.y){
+				// Going up
+				else if(currentPosition.y > lastPosition.y){
 					animator.SetBool("ZombieStill", false);
 					animator.SetBool("ZombieSideWalk", false);
 					animator.SetBool("ZombieFrontWalk", false);
 					animator.SetBool("ZombieBackWalk", true);
 				}
-				
+
+				// If the current position is the same as last position
+				// Stand still
 				if(currentPosition == lastPosition){
 					animator.SetBool("ZombieStill", true);
 					animator.SetBool("ZombieSideWalk", false);
@@ -82,13 +90,13 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 					animator.SetBool("ZombieBackWalk", false);
 				}
 			}
-			Zombie.SetDestination(playerDirection);
+			// Update last position
 			lastPosition = currentPosition;
 		} 
 		// Otherwise, no player position
 		else{	
 			noPlayer.x = noPlayer.y = 0;
-			Zombie.SetDestination(noPlayer);
+			//Zombie.SetDestination(noPlayer);
 		}
 	}
 }
