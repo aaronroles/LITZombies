@@ -15,6 +15,6 @@ public class ScoreManager : MonoBehaviour {
 	void Update () {
 		// Update the points on screen
 		// Score incremented from ZombieHealthManager
-		scoreText.text = "Points: " + score;
+		scoreText.text = "Coins: " + score;
 	}
 }
