@@ -1,14 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
 public class VendingMachine : MonoBehaviour {
 
 	private bool popUp;
 	int addToHealth;
 	public GameObject vendingMachineUI;
+	AudioSource audio;
+	public AudioClip[] machine;
 
 	void Start(){
 		popUp = false;
+		audio = GetComponent<AudioSource> ();
 	}
 
 	void Update(){
@@ -27,7 +31,6 @@ public class VendingMachine : MonoBehaviour {
 			// If the colliding object is the Player
 			if(other.gameObject.tag == "Player"){
 				popUp = !popUp;
-				print ("Use vending machine");
 			}
 		}
 	}
@@ -46,7 +49,8 @@ public class VendingMachine : MonoBehaviour {
 			}
 			// Close the pop up window
 			popUp = false;
-			// Play the audio clip !!!
+			// Play the audio clip
+			audio.PlayOneShot (machine [Random.Range(0, machine.Length)]);
 		}
 	}
 
@@ -64,7 +68,8 @@ public class VendingMachine : MonoBehaviour {
 			}
 			// Close the pop up window
 			popUp = false;
-			// Play the audio clip !!!
+			// Play the audio clip 
+			audio.PlayOneShot (machine [Random.Range(0, machine.Length)]);
 		}
 	}
 
@@ -82,7 +87,8 @@ public class VendingMachine : MonoBehaviour {
 			}
 			// Close the pop up window
 			popUp = false;
-			// Play the audio clip !!!
+			// Play the audio clip 
+			audio.PlayOneShot (machine [Random.Range(0, machine.Length)]);
 		}
 	}
 
@@ -100,7 +106,8 @@ public class VendingMachine : MonoBehaviour {
 			}
 			// Close the pop up window
 			popUp = false;
-			// Play the audio clip !!!
+			// Play the audio clip 
+			audio.PlayOneShot (machine [Random.Range(0, machine.Length)]);
 		}
 	}
 
@@ -113,7 +120,8 @@ public class VendingMachine : MonoBehaviour {
 			ScoreManager.score -= 500;
 			// Close the pop up window
 			popUp = false;
-			// Play the audio clip !!!
+			// Play the audio clip 
+			audio.PlayOneShot (machine [Random.Range(0, machine.Length)]);
 		}
 	}
 
@@ -131,7 +139,8 @@ public class VendingMachine : MonoBehaviour {
 			}
 			// Close the pop up window
 			popUp = false;
-			// Play the audio clip !!!
+			// Play the audio clip 
+			audio.PlayOneShot (machine [Random.Range(0, machine.Length)]);
 		}
 	}
 }
