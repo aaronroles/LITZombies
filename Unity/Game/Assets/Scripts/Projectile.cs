@@ -9,8 +9,9 @@ public class Projectile : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rBody = GetComponent<Rigidbody2D> ();	
-
-		rBody.AddForce(new Vector2(1,0)*hashtagSpeed, ForceMode2D.Impulse);
+		if(transform.localRotation.z > 0)
+			rBody.AddForce(new Vector2(-1,0)*hashtagSpeed, ForceMode2D.Impulse);
+		else rBody.AddForce(new Vector2(1,0)*hashtagSpeed, ForceMode2D.Impulse);
 	}
 	
 	// Update is called once per frame
