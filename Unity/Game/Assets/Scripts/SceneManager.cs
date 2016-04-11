@@ -3,13 +3,32 @@ using System.Collections;
 
 public class SceneManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	public void MainMenu(){
+		Application.LoadLevel ("MainMenu");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	public void CharacterChoice(){
+		Application.LoadLevel ("CharacterChoice");
+	}
+
+	public void HowToPlay(){
+		Application.LoadLevel ("HowToPlay");
+	}
+
+	public void Richie(){
+		Application.LoadLevel ("RichieLevel");
+	}
+
+	public void Mike(){
+		Application.LoadLevel ("MikeLevel");
+	}
+
+	public void Bernie(){
+		Application.LoadLevel ("BernieLevel");
+	}
+
+	public void QuitGame(){
+		PlayerPrefs.Save ();
+		Application.Quit ();
 	}
 }

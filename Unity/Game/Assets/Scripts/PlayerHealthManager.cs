@@ -5,6 +5,7 @@ using System.Collections;
 public class PlayerHealthManager : MonoBehaviour {
 
 	public static int health;
+	public Slider healthSlider;
 	Text healthText;
 
 	void Awake(){
@@ -28,6 +29,10 @@ public class PlayerHealthManager : MonoBehaviour {
 			// Update it
 			healthText.text = "Health: " + health;
 		}
+
+		if (gameObject.GetComponent<Slider> ()) {
+			healthSlider.value = health;
+		}
 	}
 
 	// Public function so it can be accessed from
@@ -41,8 +46,11 @@ public class PlayerHealthManager : MonoBehaviour {
 	// and changes the health text to reflect that.
 	void SetDead(){
 		health = 0;
+		healthSlider.value = 0;
 		if (gameObject.GetComponent<Text> ()) {
 			healthText.text = "Dead";
 		}
+		// PlayerPrefs.Save ();
+		// Application.LoadLevel("DeadScreen");
 	}
 }

@@ -91,8 +91,8 @@ public class PauseMenu : MonoBehaviour {
 		}
 	}
 
-	void Quit(){
-		// Bring to main menu
-		// TO DO
+	public void Quit(){
+		print ("quitted");
+		Application.Quit (); // Should quit to main menu actually
 	}
 }
