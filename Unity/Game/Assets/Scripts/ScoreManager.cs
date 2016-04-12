@@ -19,6 +19,8 @@ public class ScoreManager : MonoBehaviour {
 			// Otherwise, no high score
 			PlayerPrefs.SetInt("HighScore", 0);
 		}
+		print (currentHighScore);
+
 	}
 	
 	void Update () {
@@ -31,6 +33,7 @@ public class ScoreManager : MonoBehaviour {
 			currentHighScore = score;
 			// Set the score to the high score key
 			PlayerPrefs.SetInt("HighScore", score);
+			//PlayerPrefs.Save();
 			print ("new high score: " + currentHighScore);
 		}
 	}

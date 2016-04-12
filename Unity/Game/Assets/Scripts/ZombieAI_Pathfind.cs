@@ -5,6 +5,7 @@ using System.Collections;
 public class ZombieAI_Pathfind : MonoBehaviour {
 
 	private KDNav2DAgent m_agent;
+	private PlayerController controller;
 	private Vector2 noPlayer;
 	private Vector2 playerDirection;
 	private float playerX;
@@ -20,7 +21,7 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 		playerX = thePlayer.transform.position.x;
 		playerY = thePlayer.transform.position.y;
 
-		 if (thePlayer) {
+		 if (controller.moving.x != 0 || controller.moving.y != 0) {
 			// Find it's position and track it
 			playerX = thePlayer.transform.position.x;
 			playerY = thePlayer.transform.position.y;
