@@ -17,6 +17,20 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 	void Start(){
 		animator = GetComponent<Animator> ();
 		thePlayer = GameObject.FindWithTag ("Player");
+		playerX = thePlayer.transform.position.x;
+		playerY = thePlayer.transform.position.y;
+
+		 if (thePlayer) {
+			// Find it's position and track it
+			playerX = thePlayer.transform.position.x;
+			playerY = thePlayer.transform.position.y;
+			playerDirection = new Vector2 (playerX, playerY);
+			// Send the zombie to the player's direction
+			Zombie.SetDestination (playerDirection);
+			
+			Debug.Log ("Player is: " + playerDirection + ". Zombie is: " + currentPosition);
+		}
+
 	}
 
 	public KDNav2DAgent Zombie
@@ -31,17 +45,22 @@ public class ZombieAI_Pathfind : MonoBehaviour {
 		}
 		// If the game is not paused
 		else if(Time.timeScale == 1){
-			currentPosition = gameObject.transform.position;
+			//currentPosition = gameObject.transform.position;
 			// If the player object exists
 			if (thePlayer) {
 				// Find it's position and track it
-				playerX = thePlayer.transform.position.x;
-				playerY = thePlayer.transform.position.y;
-				playerDirection = new Vector2 (playerX, playerY);
-				// Send the zombie to the player's direction
-				Zombie.SetDestination(playerDirection);
+				float latestPlayerX, latestPlayerY;
+				latestPlayerX = thePlayer.transform.position.x;
+				latestPlayerY = thePlayer.transform.position.y;
 
-				Debug.Log ("Player is: " + playerDirection + ". Zombie is: " + currentPosition);
+				if ((playerX != latestPlayerX) || (playerY != latestPlayerY)) {
+					playerX = latestPlayerX;
+					playerY = latestPlayerY;
+					playerDirection = new Vector2 (playerX, playerY);
+					// Send the zombie to the player's direction
+					Zombie.SetDestination(playerDirection);
+					//Debug.Log ("Player is: " + playerDirection + ". Zombie is: " + currentPosition);
+				}
 
 				// If current x position is greater than last x position
 				// Going to the right

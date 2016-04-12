@@ -42,6 +42,7 @@ public class KDNav2DAgent : MonoBehaviour
     #endregion //Events
 
     #region "Properties"
+	
     /// <summary>
     /// Current KD Navigation Agent state machine
     /// </summary>
