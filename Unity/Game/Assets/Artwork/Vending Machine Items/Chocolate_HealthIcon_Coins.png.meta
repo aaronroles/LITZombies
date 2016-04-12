@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 3713deeece1d3ed4cbebbc89a566e11d
+guid: dbc0015f9498dd44ea945f6e6b5c62a3
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Sandwich_HealthIcon_Heart&Coins_0
+    21300000: Chocolate_HealthIcon_Coins_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -44,7 +44,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Sandwich_HealthIcon_Heart&Coins_0
+    - name: Chocolate_HealthIcon_Coins_0
       rect:
         serializedVersion: 2
         x: 10

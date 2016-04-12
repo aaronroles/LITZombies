@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 4f91a4e41d0d65443a557fe004501c05
+guid: 88c670838cbc36c4ab2564f93dc82cab
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Sandwich_HealthIcon_0
+    21300000: FirstAidKit_HealthIcon_Coins_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -44,7 +44,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Sandwich_HealthIcon_0
+    - name: FirstAidKit_HealthIcon_Coins_0
       rect:
         serializedVersion: 2
         x: 10

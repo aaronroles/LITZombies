@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: b61c858ff5958d045b6b2ad646e7f36c
+guid: c007461434c5a36498c785eb32d611cf
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Sandwich_HealthIcon_Witing_0
+    21300000: Fruit_HealthIcon_Coins_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -44,7 +44,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Sandwich_HealthIcon_Witing_0
+    - name: Fruit_HealthIcon_Coins_0
       rect:
         serializedVersion: 2
         x: 10
