@@ -5,10 +5,19 @@ using System.Collections;
 public class PlayerHealthManager : MonoBehaviour {
 
 	public static int health;
+	static int totalDmgTaken;
 	public Slider healthSlider;
 	Text healthText;
 
 	void Awake(){
+		if(PlayerPrefs.HasKey("DamageTaken")){
+			totalDmgTaken = PlayerPrefs.GetInt("DamageTaken");
+		}
+		else{
+			// Otherwise, no high score
+			PlayerPrefs.SetInt("DamageTaken", 0);
+		}
+
 		health = 50;
 		healthText = GetComponent<Text> ();
 	}
@@ -40,17 +49,19 @@ public class PlayerHealthManager : MonoBehaviour {
 	// the damage applied to player health
 	public void Damage(int dmg){
 		health -= dmg;
+		totalDmgTaken += dmg;
+		PlayerPrefs.SetInt("DamageTaken", totalDmgTaken);
 	}
 
 	// Called when the player's health is zero (Dead)
 	// and changes the health text to reflect that.
 	void SetDead(){
-		health = 0;
+		health = -1;
 		healthSlider.value = 0;
 		if (gameObject.GetComponent<Text> ()) {
 			healthText.text = "Dead";
 		}
-		// PlayerPrefs.Save ();
+		PlayerPrefs.Save ();
 		// Application.LoadLevel("DeadScreen");
 	}
 }
