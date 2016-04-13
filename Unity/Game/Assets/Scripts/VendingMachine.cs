@@ -21,6 +21,7 @@ public class VendingMachine : MonoBehaviour {
 		} 
 		else if (!popUp) {
 			vendingMachineUI.SetActive(false);
+
 		}
 	}
 
@@ -32,6 +33,13 @@ public class VendingMachine : MonoBehaviour {
 			if(other.gameObject.tag == "Player"){
 				popUp = !popUp;
 			}
+		}
+	}
+
+	void OnCollisionExit2D(Collision2D other){
+		if(other.gameObject.tag == "Player"){
+			popUp = false;
+			vendingMachineUI.SetActive(false);
 		}
 	}
 
