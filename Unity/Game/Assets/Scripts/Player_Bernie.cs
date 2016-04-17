@@ -10,7 +10,7 @@ public class Player_Bernie : MonoBehaviour
 	public Collider2D attackTriggerX; // Attack collider X-axis
 	public Collider2D attackTriggerYup; // Attack collider going up Y-axis
 	public Collider2D attackTriggerYdown; // Attack collider going down Y-axis
-	public Projectile projectile;
+
 	
 	void Start ()
 	{
@@ -142,10 +142,5 @@ public class Player_Bernie : MonoBehaviour
 		
 		rigidbody2D.AddForce (new Vector2 (forceX, forceY));
 	}
-
-	void OnShoot(){
-		if (projectile) {
-			Projectile clone = Instantiate (projectile, transform.position, Quaternion.identity) as Projectile;
-		}
-	}
+	
 }

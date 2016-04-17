@@ -59,102 +59,102 @@ TextureImporter:
     - name: BernieSide_Weapon_0
       rect:
         serializedVersion: 2
-        x: 32
+        x: 36
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieSide_Weapon_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 132
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieSide_Weapon_2
       rect:
         serializedVersion: 2
-        x: 224
+        x: 228
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieSide_Weapon_3
       rect:
         serializedVersion: 2
-        x: 320
+        x: 324
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieSide_Weapon_4
       rect:
         serializedVersion: 2
-        x: 416
+        x: 420
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieSide_Weapon_5
       rect:
         serializedVersion: 2
-        x: 512
+        x: 516
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieSide_Weapon_6
       rect:
         serializedVersion: 2
-        x: 608
+        x: 612
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieSide_Weapon_7
       rect:
         serializedVersion: 2
-        x: 704
+        x: 708
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieSide_Weapon_8
       rect:
         serializedVersion: 2
-        x: 800
+        x: 804
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieSide_Weapon_9
       rect:
         serializedVersion: 2
-        x: 896
+        x: 900
         y: 0
-        width: 34
+        width: 42
         height: 54
       alignment: 9
-      pivot: {x: .469999999, y: .5}
+      pivot: {x: .330000013, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

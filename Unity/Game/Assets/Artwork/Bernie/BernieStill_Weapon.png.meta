@@ -53,72 +53,72 @@ TextureImporter:
     - name: BernieStill_Weapon_0
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 0
-        width: 34
+        width: 45
         height: 54
       alignment: 9
-      pivot: {x: .38499999, y: .49999997}
+      pivot: {x: .270000011, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieStill_Weapon_1
       rect:
         serializedVersion: 2
-        x: 131
+        x: 132
         y: 0
-        width: 34
+        width: 45
         height: 54
       alignment: 9
-      pivot: {x: .38499999, y: .5}
+      pivot: {x: .270000011, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieStill_Weapon_2
       rect:
         serializedVersion: 2
-        x: 227
+        x: 228
         y: 0
-        width: 34
+        width: 45
         height: 54
       alignment: 9
-      pivot: {x: .38499999, y: .5}
+      pivot: {x: .270000011, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieStill_Weapon_3
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 0
-        width: 34
+        width: 45
         height: 54
       alignment: 9
-      pivot: {x: .38499999, y: .5}
+      pivot: {x: .270000011, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieStill_Weapon_4
       rect:
         serializedVersion: 2
-        x: 419
+        x: 420
         y: 0
-        width: 34
+        width: 45
         height: 54
       alignment: 9
-      pivot: {x: .38499999, y: .5}
+      pivot: {x: .270000011, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieStill_Weapon_5
       rect:
         serializedVersion: 2
-        x: 515
+        x: 516
         y: 0
-        width: 34
+        width: 45
         height: 54
       alignment: 9
-      pivot: {x: .38499999, y: .5}
+      pivot: {x: .270000011, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: BernieStill_Weapon_6
       rect:
         serializedVersion: 2
-        x: 611
+        x: 612
         y: 0
-        width: 34
+        width: 45
         height: 54
       alignment: 9
-      pivot: {x: .38499999, y: .5}
+      pivot: {x: .270000011, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
