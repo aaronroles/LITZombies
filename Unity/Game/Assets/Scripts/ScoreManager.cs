@@ -26,7 +26,7 @@ public class ScoreManager : MonoBehaviour {
 	void Update () {
 		// Update the points on screen
 		// Score incremented from ZombieHealthManager
-		scoreText.text = "Coins: " + score;
+		scoreText.text = score.ToString();
 		// If the score is bigger than the current high score
 		if (score > currentHighScore) {
 			// The current high score is now score
