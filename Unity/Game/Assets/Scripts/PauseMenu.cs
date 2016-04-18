@@ -4,15 +4,12 @@ using System.Collections;
 public class PauseMenu : MonoBehaviour {
 
 	private bool paused;
-	private bool settings;
 	private bool help;
 	public GameObject pauseMenuCanvas;
 	public GameObject theHud;
-	public GameObject settingsPanel;
-	public GameObject helpPanel;
 
 	void Start(){
-		paused = settings = help = false;
+		paused = help = false;
 	}
 	
 	// Update is called once per frame
@@ -56,24 +53,6 @@ public class PauseMenu : MonoBehaviour {
 		Time.timeScale = 1;
 	}
 
-
-	// Clicking the settings button will call
-	// this function, it opens settings info
-	public void Settings(){
-		// Toggle settings
-		settings = !settings;
-		// If settings is true
-		if (settings) {
-			// Activate the settings panel
-			settingsPanel.SetActive (true);
-		} 
-		// If settings is false
-		else if (!settings) {
-			// Deactivate the settings panel
-			settingsPanel.SetActive (false);
-		}
-	}
-
 	// Clicking the help button will call
 	// this function, it opens help info
 	public void GameHelp(){
@@ -81,18 +60,16 @@ public class PauseMenu : MonoBehaviour {
 		help = !help;
 		// If help is true
 		if (help) {
-			// Activate help panel
-			helpPanel.SetActive (true);
+			// Show the instructions
 		} 
 		// If help is false
 		else if (!help) {
-			// Deactivate help panel
-			helpPanel.SetActive (false);
+			// Hide the instructions
 		}
 	}
 
 	public void Quit(){
 		print ("quitted");
-		Application.Quit (); // Should quit to main menu actually
+		//Application.Load the main menu; // Should quit to main menu actually
 	}
 }
