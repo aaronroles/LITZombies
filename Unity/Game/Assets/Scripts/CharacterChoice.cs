@@ -13,4 +13,5 @@ public class CharacterChoice : MonoBehaviour {
 	public void Richie(){
 		Application.LoadLevel ("RichieGame");
 	}
+	
 }

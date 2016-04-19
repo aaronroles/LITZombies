@@ -4,7 +4,7 @@ using System.Collections;
 public class StartMenu : MonoBehaviour {
 
 	public void CharChoice(){
-		Application.LoadLevel ("CharChoice");
+		Application.LoadLevel ("CharacterChoice");
 	}
 
 	public void MyStats(){

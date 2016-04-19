@@ -62,8 +62,8 @@ public class Stats : MonoBehaviour {
 		totalSpent.text = currentSpent.ToString();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	public void GoBack(){
+		Application.LoadLevel ("StartMenu");
+		print ("Go back");
 	}
 }
