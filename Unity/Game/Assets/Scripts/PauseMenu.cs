@@ -54,23 +54,7 @@ public class PauseMenu : MonoBehaviour {
 		Time.timeScale = 1;
 	}
 
-	// Clicking the help button will call
-	// this function, it opens help info
-	public void GameHelp(){
-		// Toggle help
-		help = !help;
-		// If help is true
-		if (help) {
-			// Show the instructions
-		} 
-		// If help is false
-		else if (!help) {
-			// Hide the instructions
-		}
-	}
-
 	public void Quit(){
-		print ("quitted");
-		//Application.Load the main menu; // Should quit to main menu actually
+		Application.LoadLevel ("DeathScreen");
 	}
 }

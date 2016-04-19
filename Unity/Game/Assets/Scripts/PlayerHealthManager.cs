@@ -62,6 +62,6 @@ public class PlayerHealthManager : MonoBehaviour {
 			healthText.text = "Dead";
 		}
 		PlayerPrefs.Save ();
-		// Application.LoadLevel("DeadScreen");
+		Application.LoadLevel ("DeathScreen");
 	}
 }
