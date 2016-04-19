@@ -37,6 +37,7 @@ public class PauseMenu : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			// Toggle pause
 			paused = !paused;
+			print ("press");
 		}
 	}
 
